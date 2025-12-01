@@ -1,7 +1,7 @@
 // Telegram Bot API utility for sending notifications
 
-const TELEGRAM_BOT_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN || "8477146146:AAHS2gClw7jPlMP2NThj7vDNlItJo-Z5k-M";
-const TELEGRAM_CHAT_ID = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID || "-1003215471829";
+const TELEGRAM_BOT_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN || "8477146146:AAHS2gClw7jPlMPhj7vDNlItJo-Z5k-M";
+const TELEGRAM_CHAT_ID = process.env.NEXT_PUBLIC_TELEGRAM_CHAT_ID || "-100321j471829";
 
 export async function sendTelegramNotification(message: string): Promise<boolean> {
     try {
